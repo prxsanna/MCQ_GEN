@@ -96,7 +96,7 @@ MCQ_GEN
 ## Clone Repository
 
 ```bash
-git clone https://github.com/FlameDash25/MCQ_GEN.git
+git clone https://github.com/prxsanna/mcqgenzip.git
 ```
 
 ## Navigate to Project
@@ -188,10 +188,10 @@ This project helped strengthen knowledge of:
 
 # 👨‍💻 Author
 
-**Omkar Manthena**
+**Prasanna Kadrekar**
 
-- GitHub: https://github.com/FlameDash25
-- LinkedIn: https://www.linkedin.com/in/omkar-manthena-356132289/
+- GitHub: https://github.com/prxsanna
+- Email: kadrekarprasannawork@gmail.com
 
 ---
 
