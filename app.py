@@ -25,8 +25,15 @@ import unicodedata
 # ============================
 # 🔑 API Key Configuration
 # ============================
-os.environ["GOOGLE_API_KEY"] = "AIzaSyCNnxJlPX7lo8AF_D6sysn-QL3t7awcH1M"
-genai.configure(api_key=os.environ["GOOGLE_API_KEY"])
+try:
+    from dotenv import load_dotenv
+    load_dotenv()
+except ImportError:
+    pass
+
+google_api_key = os.getenv("GOOGLE_API_KEY", "")
+if google_api_key:
+    genai.configure(api_key=google_api_key)
 model = genai.GenerativeModel("models/gemini-1.5-pro")
 
 # ============================
